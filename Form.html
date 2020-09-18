@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Survey form</title>
+<style>
+
+h1{
+	text-align : center;
+    padding : 6px;
+  }
+div{
+		background-color : white;
+   }
+h3{
+	text-align : center;
+  }
+body{
+		background-color : #99C0DF;
+		padding : 0px 30px 30px 30px ;
+		
+        }     
+.arial{
+		font-family : Arial;
+        }      
+.cont:hover{
+				background-color : #ccc;
+           }
+input[type=submit]{
+		
+        background-color : green;
+        border : black solid;
+        border-radius : 5px;
+        cursor : pointer
+        padding: 10px;
+        }
+input[type=submit]:hover{
+			background-color : #71C26F;
+            }
+.wrap{
+	word-wrap : break-word;
+}
+</style>
+
+</head>
+
+<body>
+<y class = "wrap">
+<y class="arial"><h1>Survey Form</h1></y>
+<p></p>
+
+<div><h3><br>Let us know your details
+
+<p></p>
+<form>
+<br>
+<label for = "name">Name &nbsp- &nbsp</label>
+<input type = "text">
+<p></p>
+<label for = "mname">Mother's name &nbsp - &nbsp</label>
+<input type = "text">
+<p></p>
+<label for = "Fname">Father's name &nbsp - &nbsp</label>
+<input type = "text">
+<p></p>
+<label for = "age">Your age &nbsp - &nbsp</label>
+<input type = "number">
+
+<p></p>
+
+<label for = "Designation">Designation &nbsp </label>
+<br>
+<label class = "cont">School Student</cont>
+<input type = "radio" name = "radio">
+</label><br>
+<label class = "cont">Under-graduate Student</cont>
+<input type = "radio" name = "radio"  checked = "checked">
+</label><br>
+<label class = "cont">Post-graduate Student</cont>
+<input type = "radio" name = "radio">
+</label>
+
+<p></p>
+
+<label for = "Institution_name">Name of the Institution &nbsp - &nbsp</label>
+<input type = "alphanumeric">
+
+<p></p>
+
+<label for = "Place_of_birth">Place of Birth &nbsp - &nbsp </label>
+<select id="country" name="country">
+<option value = "India">India</option>
+<option value = "Other">Other</option>
+</select>
+
+<p></p>
+
+<label for = "Interested_subject">Interested Subject &nbsp </label>
+<br>
+<label class = "cont">Python Programming</cont>
+<input type = "checkbox" name = "checkbox">
+</label>
+<br>
+<label class = "cont">Web Development</cont>
+<input type = "checkbox" name = "checkbox">
+</label>
+<br>
+<label class = "cont">C Programming</cont>
+<input type = "checkbox" name = "checkbox">
+</label>
+<br>
+<label class = "cont">JAVA Programming</cont>
+<input type = "checkbox" name = "checkbox">
+</label>
+<br>
+
+<p></p>
+
+
+
+<input type = "submit" value = "SUBMIT">
+</form>
+</h3></div>
+</y>
+
+</body>
+</html>
